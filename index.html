@@ -1,0 +1,170 @@
+<!-- 1.태그와 태그 사이에 다른 요소들이 들어갈 수 있다
+	선택한 뒤 컨트롤 슬래시 +주석처리
+	2.가로폭은 지정하지 않은 경우 최대한을 사용한다
+	3.세로폭을 지정하지 않은 경우 최소한을 사용한다 *앤만하면 안함 높이는
+	욕심부리지말고 가장 겉에 있는 여백만 정해주자긩
+	모바일에서는 퍼센트로 많이 함
+4. img는 단어처럼 취급되어서 한줄에여러개 들감
+5.div는 대표적인 박스(container)다
+파일이름은 소ㄴ문자
+크롬의 개발자 도구를 쓰면 원인 찾기 쉬움
+flex -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>히어로즈 가입 안내</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+		<style type="text/css">
+			div{background: lightyellow; text-align: center; word-break: keep-all; }
+			.a{background: black; width: 70%; margin: auto;text-align :center;}
+			.b{background: black; width: 70%; margin: auto;text-align :center; padding: 10%;}
+		h1{background: black; margin: auto; width: 80%}
+		h2{font-size: 3rem; color: gold; margin: auto; font-family: 'Do Hyeon', sans-serif; }
+		h3{font-size: 1.2rem; color: white;}
+		h4{font-size: 1.4rem; color:  white; text-align: center;padding: 20px;font-family: 'Do Hyeon'; font-weight: lighter;}
+		h5{font-size: 2.1rem; color: white; text-align: center;margin: 10%;font-family: 'Do Hyeon'; font-weight: 100;}
+		h6{background: black; margin: auto; width: 50%;display: flex; justify-content: center;}
+
+		p{font-size: 1em; color: white; text-align: center;line-height: 1.5;font-weight: 300; font-family: 'Noto Sans KR', sans-serif;}
+		a{display:  inline-block; background : none; width: 100px; height: 30px ; color: gold; text-align: center; line-height: 32px; text-decoration: none; font-weight: bold;border-radius: 10px; border: 3px solid gold;box-shadow: 0px 0px 5px gold;margin: auto;}
+		a:hover{background : gold;color: black; box-shadow: 0px 0px 10px gold; transition: all 0.5s;}
+		section{background: black;}
+		img{text-align: center; width: 100%;}
+		body{margin: 0px;}
+		</style>
+	</head>
+	<body>
+		<section>
+							<p><img src="main.png"></p>
+			<div class="b">
+				<h2> SEOULTECH HEROES</h2>
+				<h3>⚾️ 서울과학기술대학교 중앙야구동아리 히어로즈 ⚾️</h3>
+
+				<h6><img src="1ogo1.png"></h6>
+				<h5>😘 2022 신입생 모집 😘</h5>
+					
+					<p>우리대학 유.일.무.이 야구동아리
+					🐲히어로즈🐲의 신입부원을 모집합니다!!</p>
+					<p>🧢모집 대상: 우리대학 학우 누구나(신입생, 재학생, 복학생, 휴학생 모두 환영합니다👋🏻)</p>
+					<p>🧢모집 기간: 상시모집</p>
+					<p>🚨폼 작성 후 DM이나 아래 연락처로  연락 주세요!🚨</p>
+					<p>🧢모집 분야: 선수 / 동아리원 / 홍보부(디자인)</p>
+							</div>
+				<div class="b">
+
+					<img src="member.png">
+					<h5>🐉 히어로즈 활동 내용 🐉</h5>
+					<h4>✹선수 🤸🏻‍♂️</h4>
+					<p>-정기연습, 야구 직관, 신입생 환영회, 동아리 MT, AUBL(수도권 대학 리그), 전국대회, OB/YB 교류 등</p>
+
+
+					<h4>✹동아리원/매니저 🦸</h4>
+					<p>-야구 직관, 히어로즈 경기 직관 및 촬영, 신입생 환영회, 동아리 MT 등 함께  프로야구 직관도 가고 동아리 경기 응원도 함께 해요! </p>
+
+					<h4>✹ 홍보부 👩🏻‍💻</h4>
+					<p>-[온라인] SNS 콘텐츠 기획 및 제작, 동아리 홍보물(굿즈, 배너,로고 등) 제작 등</p>
+					<p>-[오프라인] 야구 직관, 히어로즈 경기 직관 및 촬영, 신입생 환영회, 동아리 MT</p>
+					<p>※디자인, 스포츠 마케팅, SNS 관리 등에 관심 있는 분 환영합니다💗</p>
+					<p>※야구에 대해 아예 모르셔도 괜찮습니다‼🙏🙏</p>
+
+
+
+					<p>※동아리원&홍보부도 자유롭게 플레이에 참여하며 선수로 활동하실 수 있습니다‼</p>
+					<p>*선수로 활동할 경우 회비 3만원 지불</p>
+
+					 
+					<p>*회비는 학기당 선수 3만원</p>
+					<p>동아리원, 홍보부는 1만원 입니다!</p>
+
+			</div>
+				<div class="b">
+					<h6><img src="yj1.png"><img src="yj.png"></h6>
+
+					<h5>⚠️ 자주 묻는 질문‼ ⚠️ </h5>
+
+
+
+
+					<h4>1️⃣ 야구가 처음인 사람도 가입할 수 있나요?</h4>
+
+					<p>✔물론입니다! 야알못이라도 히어로즈에서 활발히 교류하며 연습하다 보면 어느새 당신도 야구왕🏅</p>
+					<p>야구 걸음마, 히어로즈가 떼어드립니다 😊</p>
+					 
+
+
+					<h4>2️⃣ 코로나로 인해 활동이 어렵지 않을까요?</h4>
+
+					<p>✔히어로즈는 사회적 거리두기 단계에 따른 방역수칙을 준수하며 온/오프라인 활동을 활발히 병행하고 있습니다! </p>
+					 
+					<h4>3️⃣ 여학생도 가입할 수 있나요?</h4>
+
+					<p>✔야구와 함께하고 싶은 자 모두 히어로즈로 🐲💓</p>
+					<p>히어로즈에서는 성별에 관계없이 선수, 동아리원, 홍보부 활동에 참여하실 수 있습니다!</p>
+					<p>플레이 관련 활동 외에도 직관, 응원 등 다른 많은 활동들을 하실 수 있습니다 😘</p>
+
+					<h4>4️⃣ 연습이 빡세거나 군기를 잡지는 않나요?</h4>
+
+					<p>✔히어로즈는 연습 활동 참여를 강제하지 않습니다! 편한 시간에 연습에 참여하시면 됩니다👀</p>
+					<p>또한, 기수제가 아닌 ✌🏻나이제✌🏻이기 때문에 군기라고는 눈 씻고 찾아도 볼 수 없는 가족같은 분위기랍니다.</p>
+					<p> 함께 즐겨요! 🤗 </p>
+
+					</div>	
+				<div class="b">
+
+
+					<h5>👀 문의사항 👀</h5>
+			<h1><img src="owner3.jpg"></h1>
+
+					<h4>💬 선수관련 문의 💬</h4>
+
+					
+					<p>✹ 회장 : 송종민 ✹</p>
+					<p>* 010 5656 3469</p>
+
+					<p>✹ 감독 : 방태진 ✹</p>
+					<p>* 010 5166 1429</p>
+
+					<h6><img src="me.png"></h6>
+					<h4>💭 홍보, 동아리원 문의 💭</h4>
+
+					<p>✹ 홍보 : 최승화 ✹</p>
+					<nav>
+						<a href= "https://open.kakao.com/o/sDNTMC0d" target="_new"> 오픈채팅  </a>
+						</nav>
+
+
+			</div>
+				<div class="b">
+
+		<h6><img src="meee.png"></h6>
+
+
+
+					<h4>🐉 히어로즈 가입 신청하기 🐉</h4>
+
+					<nav>
+						<a href= "https://forms.gle/PkLAwPLdjJQyZXhg9" target="_new"> 구글 폼 </a>
+						</nav>
+
+
+					<h4>⚾️ SNS 구경가기 ⚾️</h4>
+
+					<nav>
+						<a href= "https://www.instagram.com/seoultech_heroes/" target="_new"> 인스타그램 </a>
+						<a href= "https://www.facebook.com/seoultechheroes" target="_new"> 페이스북 </a>
+						</nav>
+					<h1><img src="1ogo2.png"></h1>
+					</div>
+				</div>
+			</div>
+				</section>
+	
+</body>
+</html>
